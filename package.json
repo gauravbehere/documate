@@ -1,0 +1,12 @@
+{
+  "name": "automated-documentation-generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "setup": "cd recorder && npm install uirecorder mocha -g  && uirecorder init",
+    "setConfig": "node ./setConfig.js",
+    "start": "cd recorder && npm start"
+  },
+  "author": "",
+  "license": "MIT"
+}
