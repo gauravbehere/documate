@@ -1,12 +1,14 @@
 {
   "name": "automated-documentation-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Utility to generate PDF documentation of a web application's features",
   "scripts": {
     "setup": "cd recorder && npm install uirecorder mocha -g  && uirecorder init",
-    "setConfig": "node ./setConfig.js",
-    "start": "cd recorder && npm start"
+    "setconfig": "node ./setConfig.js",
+    "start": "cd recorder && npm run server",
+    "singletest":"cd recorder && npm run singletest --bail",
+    "generateDoc": "node documentationParser.js" 
   },
-  "author": "",
+  "author": "gaurav.techgeek@gmail.com",
   "license": "MIT"
 }
