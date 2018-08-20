@@ -9,20 +9,20 @@
 
 # Usage
 ### Setup
-- > `$ git clone https://github.com/gauravbehere/documate`
-- > `$ npm install`
-- > `$ npm run setup`
-- > `$ npm run setconfig`
+> `$ git clone https://github.com/gauravbehere/documate`
+> `$ npm install`
+> `$ npm run setup`
+> `$ npm run setconfig`
 
 ### Record Features (generates feature's spec file)
-- npm run start
-- npm run record "path to spec file" (format: recorder/spec/myFeature.spec.js)
+> `$ npm run start`
+> `$npm run record "path to spec file"` (format: recorder/spec/myFeature.spec.js)
 
 ### Run Feature Spec (generates screenshots)
-- npm run singletest "path to spec file" (eg: recorder/spec/myFeature.spec.js)
+> `$ npm run singletest "path to spec file"` (eg: recorder/spec/myFeature.spec.js)
 
 ### Generate documentation (generates PDF documentaion for the application's features
-- npm run generateDoc (Generates PDF documented steps in the same folder, with the version number provided in config file.)
+> `$ npm run generateDoc` (Generates PDF documented steps in the same folder, with the version number provided in config file.)
 
 # Configuration
 ```javascript
@@ -65,7 +65,10 @@ module.exports = {
 - UIRecorder: https://github.com/alibaba/uirecorder (Big Thanks to Alibaba !)
 - NodeJS > v7.x
 
+# Note
+For better results & meaningful steps, the UI elements should have meaningful id, aria-label & title.
+
 # Licence
 MIT, Gaurav Behere, gaurav.techgeek@gmail.com, http://gauravbehere.in
 
-! Do contribute, raise PR if you see anything can be done better.
+! Do contribute, raise PR if you see anything which can be done better.
