@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="documate.PNG" width="150">
+</p>
+
 # documate
  Utility to generate PDF documentation of a web application's features
 
@@ -13,7 +17,7 @@
  
  > `$ npm install`
  
- > `$ npm run setup`
+ > `$ npm run setup` (install with default settings)
  
  > `$ npm run setconfig`
  
