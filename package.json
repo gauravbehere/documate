@@ -1,14 +1,21 @@
 {
-  "name": "automated-documentation-generator",
+  "name": "documate",
   "version": "1.0.0",
   "description": "Utility to generate PDF documentation of a web application's features",
   "scripts": {
     "setup": "cd recorder && npm install uirecorder mocha -g  && uirecorder init",
     "setconfig": "node ./setConfig.js",
     "start": "cd recorder && npm run server",
-    "singletest":"cd recorder && npm run singletest --bail",
-    "generateDoc": "node documentationParser.js" 
+    "singletest": "cd recorder && npm run singletest --bail",
+    "generateDoc": "node documate.js",
+    "record": "cd recorder && uirecorder"
   },
   "author": "gaurav.techgeek@gmail.com",
-  "license": "MIT"
+  "homepage": "https://github.com/gauravbehere/documate",
+  "keywords": ["automatic documentation", "user guide", "auto pdf doc", "documate", "automate product documentation"],
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "html-pdf": "^2.2.0"
+  }
 }
