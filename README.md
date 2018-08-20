@@ -9,13 +9,18 @@
 
 # Usage
 ### Setup
-> `$ git clone https://github.com/gauravbehere/documate`
-> `$ npm install`
-> `$ npm run setup`
-> `$ npm run setconfig`
+ > `$ git clone https://github.com/gauravbehere/documate`
+ 
+ > `$ npm install`
+ 
+ > `$ npm run setup`
+ 
+ > `$ npm run setconfig`
+ 
 
 ### Record Features (generates feature's spec file)
 > `$ npm run start`
+
 > `$npm run record "path to spec file"` (format: recorder/spec/myFeature.spec.js)
 
 ### Run Feature Spec (generates screenshots)
