@@ -16,10 +16,10 @@
 
 ### Record Features (generates feature's spec file)
 - npm run start
-- npm run record <path to spec file> (format: recorder/spec/myFeature.spec.js)
+- npm run record "path to spec file" (format: recorder/spec/myFeature.spec.js)
 
 ### Run Feature Spec (generates screenshots)
-- npm run singletest <path to spec file> eg: recorder/spec/myFeature.spec.js
+- npm run singletest "path to spec file" (eg: recorder/spec/myFeature.spec.js)
 
 ### Generate documentation (generates PDF documentaion for the application's features
 - npm run generateDoc (Generates PDF documented steps in the same folder, with the version number provided in config file.)
