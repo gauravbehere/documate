@@ -10,9 +10,9 @@
 # Usage
 ### Setup
 - > `$ git clone https://github.com/gauravbehere/documate`
-- npm install
-- npm run setup
-- npm run setconfig
+- > `$ npm install`
+- > `$ npm run setup`
+- > `$ npm run setconfig`
 
 ### Record Features (generates feature's spec file)
 - npm run start
@@ -65,3 +65,7 @@ module.exports = {
 - UIRecorder: https://github.com/alibaba/uirecorder (Big Thanks to Alibaba !)
 - NodeJS > v7.x
 
+# Licence
+MIT, Gaurav Behere, gaurav.techgeek@gmail.com, http://gauravbehere.in
+
+! Do contribute, raise PR if you see anything can be done better.
