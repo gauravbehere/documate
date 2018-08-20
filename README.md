@@ -9,7 +9,7 @@
 
 # Usage
 ### Setup
-- Clone https://github.com/gauravbehere/documate
+- > `$ git clone https://github.com/gauravbehere/documate`
 - npm install
 - npm run setup
 - npm run setconfig
